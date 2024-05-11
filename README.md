@@ -1,4 +1,6 @@
 
-# suricata
+# Suricata
 
-README inicial de este proyecto web.
+Desafío guiado para Cari.
+
+
