@@ -1,7 +1,11 @@
+/* Micro-reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -10,14 +14,30 @@ nav {
   height: 9.4vh;
 }
 
- #container-navbar {
+#container-navbar {
   width: 81.25%;
-  /* margin: 0 auto; */ /* No la necesitamos porque lo hace BS (centrar elementos de tipo BLOCK */
 }
 
 .navbar-brand {
-  height: 70%;  
+  height: 70%;
 }
+
+h1 {
+  font-size: 60px !important;
+  font-weight: 700 !important;
+}
+
+@media (min-width: 768px) {
+  main.container {
+    max-width: 71.87vw;
+    padding-bottom: 118px !important;
+  }
+
+  .row-cols-md-3>* {
+    width: 31.5% !important;
+  }
+}
+
 
 aside {
   height: 21.25vh;
